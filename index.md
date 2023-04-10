@@ -13,7 +13,7 @@ Instructions - How to play
 - Try not to fall into the void.
 - Try to get into the hole (theres no award)
 
-CLICK HERE TO PLAY 
+[CLICK HERE TO PLAY](mikes_mini_golf/index.html)
 
 Code 
 ------
