@@ -88,7 +88,6 @@ public class club : MonoBehaviour
     {
         transform.position = ball.transform.position;
 
-        // transform.localEulerAngles = ball.transform.localEulerAngles;
         
         if (Input.GetKey("left"))
         {
@@ -119,13 +118,11 @@ public class CameraFollow : MonoBehaviour
 
     void Update()
     {
-        // Define a target position above and be$$anonymous$$nd the target transform
-        Vector3 targetPosition = target.transform.position+offset;
-        // transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
 
+        Vector3 targetPosition = target.transform.position+offset;
         transform.position = targetPosition;
         transform.LookAt(target);
-        // transform.RotateAround(Vector3.right, 5f);
+
     }
 
 }
@@ -143,8 +140,6 @@ using UnityEngine.SceneManagement;
 
 public class DeathByFallingOffTheMap : MonoBehaviour
 {
-
-    // Start is called before the first frame update
     void OnTriggerEnter(Collider collider)
     {
         if (collider.tag == "Player")
@@ -160,7 +155,3 @@ public class DeathByFallingOffTheMap : MonoBehaviour
 And that's it for the basics of the game!
 
 ![win](https://user-images.githubusercontent.com/61642101/230899820-c8b60f06-0068-4b2f-a03b-2eb8f46dbb9e.png)
-
-~~~diff
-- Now would you please stop snooping around in the file and go play the game? -
-~~~
