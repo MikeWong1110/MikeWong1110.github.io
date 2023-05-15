@@ -16,7 +16,7 @@ Instructions - How to play
 [CLICK HERE TO PLAY](mikes_mini_golf/index.html) 
 <br>
 Level 2 is here! 
-[CLICK HERE TO PLAY](built golf proyecto/index.html)
+[CLICK HERE TO PLAY](built%20golf%20proyecto/index.html)
 
 Code 
 ------
