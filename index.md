@@ -14,6 +14,8 @@ Instructions - How to play
 - Try to get into the hole (theres no award)
 
 [CLICK HERE TO PLAY](mikes_mini_golf/index.html)
+Level 2 is here! 
+[CLICK HERE TO PLAY](built golf proyecto/index.html)
 
 Code 
 ------
